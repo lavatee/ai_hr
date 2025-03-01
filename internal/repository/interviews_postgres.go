@@ -10,6 +10,7 @@ func NewInterviewsPostgres(db *sqlx.DB) *InterviewsPostgres {
 	}
 }
 
-func (r *InterviewsPostgres) SaveInterview(userId int, userStack string, tasks []interview.Task) (int, error) {
-	
+func (r *InterviewsPostgres) SaveInterview(userId int, userStack string, difficulty string, tasks []interview.Task) (int, error) {
+	var interviewId int
+	query := fmt.Sprintf("INSERT INTO %s ()")	
 }
