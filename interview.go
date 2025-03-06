@@ -1,8 +1,8 @@
-package interview
+package ai_hr
 
 type Interview struct {
-	Id int `db:"id"`
-	UserId int `db:"user_id"`
-	Stack string `db:"stack"`
-	CurrentTaskIndex int `db:"current_task_index"`
+	Id               int    `db:"id"`
+	UserId           int    `db:"user_id"`
+	Stack            string `db:"stack"`
+	CurrentTaskIndex int    `db:"current_task_index"`
 }

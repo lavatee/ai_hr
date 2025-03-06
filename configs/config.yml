@@ -1,11 +1,11 @@
-port: "8000",
+port: "8000"
 db:
-  host: "localhost",
-  port: "5432",
-  user: "postgres",
-  dbname: "postgres",
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  dbname: "postgres"
   sslmode: "disable"
 aiApi:
   model: "google/gemini-2.0-flash-lite-preview-02-05:free"
-  key: "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"
+  key: "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"
   address: "https://openrouter.ai/api/v1/chat/completions"

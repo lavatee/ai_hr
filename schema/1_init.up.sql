@@ -13,7 +13,8 @@ CREATE TABLE IF NOT EXISTS tasks
     interview_id INT NOT NULL,
     index INT, 
     correct_answer_index INT,
-    text VARCHAR(511) NOT NULL
+    text VARCHAR(511) NOT NULL,
+    is_correct BOOLEAN
 );
 
 CREATE TABLE IF NOT EXISTS answers
